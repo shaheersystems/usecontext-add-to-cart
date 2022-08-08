@@ -1,0 +1,79 @@
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+  color: black;
+  font-weight: 400;
+  padding: 7px 25px;
+}
+.header {
+  display: flex;
+  padding: 20px;
+  height: 10vh;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
+    rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+.links {
+  display: flex;
+  gap: 12px;
+}
+.products-container {
+  display: flex;
+  max-width: 90%;
+  margin: auto;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 20px;
+  gap: 10px;
+}
+.single-product {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 250px;
+  border-radius: 5px;
+  min-height: 30vh;
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
+    rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+.flex-1 {
+  flex: 1;
+}
+img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 5px;
+}
+.flex-15 {
+  flex: 0.5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 30px;
+}
+.product-desc {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+}
+button {
+  padding: 7px 25px;
+  border: none;
+  background: black;
+  color: white;
+  border-radius: 5px;
+}
+.total-bill {
+  max-width: 90%;
+  margin: auto;
+  height: 20vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
